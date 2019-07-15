@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="cn.zju.id21732102.qiufeng.StatusActivity"
+>
+
+
+    <TextView
+        android:id="@+id/txtPkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="454dp"
+        android:layout_marginStart="454dp"
+        android:layout_marginTop="18dp"
+        android:text="包名" />
+
+    <EditText
+        android:id="@+id/editStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="有什么新鲜事。。。"
+        android:inputType="textPersonName"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPkg"
+        android:layout_alignStart="@+id/txtPkg"
+        android:layout_below="@+id/txtPkg"
+        android:layout_marginTop="23dp"
+        android:text="140"
+        android:textColor="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发布"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/txtCount"
+        android:layout_toEndOf="@+id/txtCount" />
+</RelativeLayout>

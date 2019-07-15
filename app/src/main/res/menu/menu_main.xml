@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_post"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="发布微博"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_start"
+        android:checkable="true"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="never"
+        android:title="启动服务" />
+    <item
+        android:id="@+id/action_stop"
+        android:title="停止服务" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="选项设置" />
+    <item
+        android:id="@+id/action_calc"
+        android:title="计算器" />
+    <item
+        android:id="@+id/action_filetest"
+        android:title="文件测试" />
+    <item
+        android:id="@+id/action_homework"
+        android:title="提交作业" />
+    <item
+        android:id="@+id/action_music"
+        android:title="音乐列表" />
+    <item
+        android:id="@+id/action_delete"
+        android:title="清除数据" />
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.zju.id21732102.qiufeng.StatusActivity">
+
+    <TextView
+        android:id="@+id/txtPkg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtCount"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtCount"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/btnPost"
+        android:layout_toStartOf="@+id/btnPost"
+        android:background="@android:color/holo_green_light"
+        android:text="包名" />
+
+    <EditText
+        android:id="@+id/editStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnPost"
+        android:layout_marginTop="21dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="有什么新鲜事。。。"
+        android:gravity="top|left"/>
+
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="发布"
+        android:layout_alignTop="@+id/txtPkg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnPost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:text="140"
+        android:textColor="@color/colorAccent" />
+</RelativeLayout>

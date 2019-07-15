@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.zju.id21732102.qiufeng.MusicActivity">
+
+    <TextView
+        android:id="@+id/pkgname_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="TextView"/>
+
+    <ListView android:id="@+id/listMusic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/pkgname_music" />
+
+    <!--<ScrollView-->
+        <!--android:id="@+id/scrollView1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignLeft="@+id/pkgname_music"-->
+        <!--android:layout_below="@+id/pkgname_music">-->
+        <!--<TextView-->
+            <!--android:id="@+id/textMusic"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="Medium_Text"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+    <!--</ScrollView>-->
+
+</RelativeLayout>

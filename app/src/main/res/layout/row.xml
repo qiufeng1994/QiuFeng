@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/image1"
+        android:scrollbarSize="50sp"
+        android:scaleType="fitStart"/>
+
+    <RelativeLayout
+        android:layout_width="132dp"
+        android:layout_height="61dp"
+        android:layout_weight="29.47">
+
+        <TextView
+            android:text="StudentA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/txtUser" />
+
+        <TextView
+            android:text="Message..."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtUser"
+            android:layout_alignParentStart="true"
+            android:id="@+id/txtMsg" />
+
+        <TextView
+            android:text="10分钟前"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTime"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

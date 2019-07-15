@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.zju.id21732102.qiufeng.HelloActivity" >
+    <item
+        android:id="@+id/action_submit"
+        android:orderInCategory="100"
+        android:title="提交作业"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_close"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="101"
+        android:title="关闭"
+        app:showAsAction="always" />
+</menu>

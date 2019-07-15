@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyHelloWorld</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username">用户名</string>
+    <string name="username_hint">请输入用户名</string>
+    <string name="password">密码</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="interval">刷新周期</string>
+    <string name="interval_hint">微博刷新周期（秒）</string>
+
+    <string name="stopservice">服务关闭</string>
+    <string name="startservice">服务开启</string>
+
+</resources>
